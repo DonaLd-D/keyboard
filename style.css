@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+#keyboard{
+  max-width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid grey;
+  box-shadow: 2px 2px grey;
+  background-color: rgb(237, 247, 247);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 14px;
+}
+#keyboard>div{
+  width: 50px;
+  height: 50px;
+  margin: 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid black;
+  box-shadow: 2px 2px grey;
+  border-radius: 4px;
+}
+#keyboard .str{
+  width: 35px;
+}
+#keyboard .backspace{
+  width: 100px;
+}
+#keyboard .tab{
+  width: 75px;
+}
+#keyboard .capslock{
+  width: 85px;
+}
+#keyboard .enter{
+  width: 100px;
+}
+#keyboard .shift{
+  width: 120px;
+}
+#keyboard .pause{
+  width: 100px;
+}
+#keyboard .space{
+  width: 280px;
+}
