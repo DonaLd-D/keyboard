@@ -72,5 +72,5 @@ setInterval(function(){
   }
   n=n+1 
   keyboard.innerHTML=str.substring(0,n)
-},1)
+},0.5)
 
