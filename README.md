@@ -4,4 +4,4 @@
 
 - 自己实现一个最好
 
-- [预览](donald-d.github.io/keyboard/)
+- 预览效果，[click me](donald-d.github.io/keyboard/)
